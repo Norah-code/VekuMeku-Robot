@@ -1,5 +1,5 @@
 # VekuMeku-Robot
-Artificicial Intelligence Nam-Counselling Robot
+Artificial Intelligence Nam-Counselling Robot
 
 The world thus far seen little AI applied as much as it its talked about at many conferences, It is in this age of a pandemic that people have realised the 
 importance of E-learning and having it set up just right, and it is in this times that I realised that soo many people(/students) are suffering from mental illnesses and 
