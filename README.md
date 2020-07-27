@@ -2,7 +2,7 @@
 Artificicial Intelligence Nam-Counselling Robot 
 
 ### Prototype Video
-For the prototype Video please follow this link https://youtu.be/90QRN1yMFSE
+For the prototype Video please follow this link https://youtu.be/rPzyUxIMFcU
 
 ![Alt text](screenshoots/main.PNG)
 
