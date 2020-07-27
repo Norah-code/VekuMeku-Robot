@@ -9,7 +9,7 @@ So to combact this challenge I set out to develop a counselling chatbot. This a 
 
 What should matter most is, Is a computer able to provide the some or atleast some theraputic support to a troubled human being? Can a Computer understand understand and relate and advice?
 
-In this prototype I attempt to create a brain
+In this prototype I attempt to create a brain, or atleast the mere logic of a sane person's mind using Natural Lamguage Processing and many others resorces I could find at my aid
 
 ### Prototype Video
 For the prototype Video please follow this link https://youtu.be/rPzyUxIMFcU
