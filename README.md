@@ -7,7 +7,7 @@ just need advice, counselling or just someone to listen. There just arent enough
 
 So to combact this challenge I set out to develop a counselling chatbot. This a challenge that Ive only thus far been able to create a prototype, that speaks(not in the most fluttering voice, but as baseline is acceptable), it doesnt listen to speech yet, But those arent that big of a deal. 
 
-What should matter most is, Is a computer able to provide the some or atleast some theraputic support to a troubled human being? Can a Computer understand understand and relate and advice?
+What should matter most is, Is a computer able to provide the some or atleast some theraputic support to a troubled human being? Can a Computer understand and relate and advice?
 
 In this prototype I attempt to create a brain, or atleast the mere logic of a sane person's mind using Natural Language Processing and many others resources I could find at my aid, Tensorflow trained models being the area of most interest, but simple import errors and a slow PC robbed me of that option.
 
