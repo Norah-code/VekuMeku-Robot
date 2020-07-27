@@ -1,0 +1,89 @@
+<!DOCTYPE html> <!--  Tells the web browser to expect an HTML document.-->
+<html> <!--The root of the HTML document and parent of all other HTML elements on the webpage-->
+     <head>
+     
+       <title>Counselling Robot</title>
+	   <link rel="icon" type="image/png" href="http://ashwinshenoy.com/img/favicon.png">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>  
+       <meta charset="utf-8"/> <!-- Tells the web browser which character set to use. In this case, the character set is "utf-8".-->  
+       <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+       <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/Contacts.css') }}">
+     
+     </head>
+
+	<body>
+		<header class="container">
+			<div class="row">
+			<h1 class="col-sm-8">A Counselling Robot</h1>
+			<nav class="col-sm-4">
+					<div class="contact-btn"><p><a href=""><b>Home</b></a></p></div>
+					<div class="contact-btn"><p><a href="support_chat"><b>Support Group</b></a></p></div>
+					<div class="contact-btn"><p><a href="Share.html"><b>Share</b></a></p></div>
+					<div class="contact-btn"><p><a href="contact"><b>Contact Us</b></a></p></div>
+			</nav>
+			</div>
+		</header>
+
+		<!-- Form -->
+		<center><h3>Form</h3></center>
+	
+		<form method="post" action="#">
+			<div class="row uniform">
+				<div class="6u 12u$(xsmall)">
+					<input type="text" name="name" id="name" value="" placeholder="Name" />
+				</div>
+				<div class="6u$ 12u$(xsmall)">
+					<input type="email" name="email" id="email" value="" placeholder="Email" />
+				</div>
+				<!-- Break -->
+				<div class="12u$">
+					<div class="select-wrapper">
+						<select name="category" id="category">
+							<option value="">- Mental Illeness -</option>
+							<option value="1">Depression</option>
+							<option value="1">Stress</option>
+							<option value="1">Anxiety</option>
+							<option value="1">Eating Disorder</option>
+							<option value="1">Suicidal thoughts</option>
+							<option value="1">ADD/ADHD</option>
+							<option value="1">ADD/ADHD</option>
+						</select>
+					</div>
+				</div>
+				<!-- Break -->
+				<div class="4u 12u$(small)">
+					<input type="radio" id="priority-low" name="priority" checked>
+					<label for="priority-low">Low Priority</label>
+				</div>
+				<div class="4u 12u$(small)">
+					<input type="radio" id="priority-normal" name="priority">
+					<label for="priority-normal">Normal Priority</label>
+				</div>
+				<div class="4u$ 12u$(small)">
+					<input type="radio" id="priority-high" name="priority">
+					<label for="priority-high">High Priority</label>
+				</div>
+				<!-- Break -->
+				<div class="6u 12u$(small)">
+					<input type="checkbox" id="copy" name="copy">
+					<label for="copy">Email me a copy of this message</label>
+				</div>
+				<div class="6u$ 12u$(small)">
+					<input type="checkbox" id="human" name="human" checked>
+					<label for="human">I am a human and not a robot</label>
+				</div>
+				<!-- Break -->
+				<div class="12u$">
+					<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+				</div>
+				<!-- Break -->
+				<div class="12u$">
+					<ul class="actions">
+						<li><input type="submit" value="Send Message" /></li>
+						<li><input type="reset" value="Reset" class="alt" /></li>
+					</ul>
+				</div>
+			</div>
+		</form>    
+	</body>
+</html>
