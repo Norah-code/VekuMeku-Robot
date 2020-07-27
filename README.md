@@ -2,4 +2,4 @@
 Artificicial Intelligence Nam-Counselling Robot 
 
 
-![Screenshot](screenshots/site.png)
+![Screenshot](screenshots/main.PNG)
